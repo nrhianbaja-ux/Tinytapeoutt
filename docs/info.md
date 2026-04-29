@@ -8,11 +8,22 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
+A tiny digital circuit design that will:
 
-.
+Be simulated
+Be converted into chip layout (GDS)
+Be fabricated into a real ASIC chip
+
+TinyTapeout collects many small designs and puts them onto one chip (like shared space).
+
 ## How to test
+This defines behavior like:
 
-.
+counters
+adders
+state machines
+
+👉 Example: “if input is 1 → output toggles”
 ## External hardware
 
 .
